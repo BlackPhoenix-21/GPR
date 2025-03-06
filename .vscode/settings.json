@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "GPR - 2D-Game.sln"
+    "dotnet.defaultSolution": "GPR.sln"
 }
