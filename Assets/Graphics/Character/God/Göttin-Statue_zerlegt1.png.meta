@@ -105,7 +105,7 @@ TextureImporter:
         width: 576
         height: 893
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -126,7 +126,7 @@ TextureImporter:
         width: 80
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,7 +147,7 @@ TextureImporter:
         width: 97
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -168,7 +168,7 @@ TextureImporter:
         width: 91
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,7 +189,7 @@ TextureImporter:
         width: 96
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "G\xF6ttin-Statue_zerlegt1_7"
+      name: "G\xF6ttin-Statue_zerlegt1_5"
       rect:
         serializedVersion: 2
         x: 1371
@@ -210,7 +210,7 @@ TextureImporter:
         width: 67
         height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "G\xF6ttin-Statue_zerlegt1_11"
+      name: "G\xF6ttin-Statue_zerlegt1_6"
       rect:
         serializedVersion: 2
         x: 280
@@ -231,7 +231,7 @@ TextureImporter:
         width: 89
         height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "G\xF6ttin-Statue_zerlegt1_13"
+      name: "G\xF6ttin-Statue_zerlegt1_7"
       rect:
         serializedVersion: 2
         x: 1359
@@ -252,7 +252,7 @@ TextureImporter:
         width: 128
         height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,16 +278,14 @@ TextureImporter:
       "G\xF6ttin-Statue_zerlegt1_0": -864398586
       "G\xF6ttin-Statue_zerlegt1_1": 1988117670
       "G\xF6ttin-Statue_zerlegt1_10": -683554752
-      "G\xF6ttin-Statue_zerlegt1_11": -267879147
       "G\xF6ttin-Statue_zerlegt1_12": -1212229770
-      "G\xF6ttin-Statue_zerlegt1_13": 1843988578
       "G\xF6ttin-Statue_zerlegt1_14": 2106152760
       "G\xF6ttin-Statue_zerlegt1_2": -448272589
       "G\xF6ttin-Statue_zerlegt1_3": -1870023173
       "G\xF6ttin-Statue_zerlegt1_4": -1813732541
-      "G\xF6ttin-Statue_zerlegt1_5": -1568323923
-      "G\xF6ttin-Statue_zerlegt1_6": 1115042853
-      "G\xF6ttin-Statue_zerlegt1_7": -1344242622
+      "G\xF6ttin-Statue_zerlegt1_5": -1344242622
+      "G\xF6ttin-Statue_zerlegt1_6": -267879147
+      "G\xF6ttin-Statue_zerlegt1_7": 1843988578
       "G\xF6ttin-Statue_zerlegt1_8": 741051016
       "G\xF6ttin-Statue_zerlegt1_9": 1719540439
   mipmapLimitGroupName: 

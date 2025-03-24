@@ -387,19 +387,19 @@ MonoBehaviour:
   relativePosition: {x: 0, y: 0}
   numSlots: 4
   uiSlots:
-  - uiButton: {fileID: 0}
+  - uiButton: {fileID: 11400032, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
     uiButtonID: 1464016
     sprite: {fileID: 0}
-  - uiButton: {fileID: 0}
+  - uiButton: {fileID: 11400026, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
     uiButtonID: 1462004
     sprite: {fileID: 0}
-  - uiButton: {fileID: 0}
+  - uiButton: {fileID: 11400020, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
     uiButtonID: 1460350
     sprite: {fileID: 0}
-  - uiButton: {fileID: 0}
+  - uiButton: {fileID: 11400048, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
     uiButtonID: 1411846
     sprite: {fileID: 0}
-  - uiButton: {fileID: 0}
+  - uiButton: {fileID: 11400014, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
     uiButtonID: 1456030
     sprite: {fileID: 0}
   textEffects: 0
@@ -6212,7 +6212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 2
+  menuSource: 1
   canvas: {fileID: 22300000, guid: 477502325ac2afb4e9dd95ee3170c33a, type: 3}
   canvasAssetKey: 
   canvasID: 27324
