@@ -476,7 +476,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 186.6
+    height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1889157321}
@@ -487,7 +487,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Maybe this path will lead to the goal?
+  messageText: Are those... Chicken feet prints..?
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -501,6 +501,62 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0.5
+--- !u!114 &440713986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3115159497059896156}
+  groupID: 0
+  invAction: 0
+  parameterID: -1
+  invID: 0
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
+  itemRemoveMethod: 0
+  categoryID: 0
+  categoryIDParameterID: -1
 --- !u!1 &487862002
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,62 +789,6 @@ MonoBehaviour:
   groupID: 0
   parameterID: -1
   timeToPause: 0
---- !u!114 &549929249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 10.800003
-    y: 135.8
-    width: 300
-    height: 132
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3115159497059896156}
-  groupID: 0
-  invAction: 0
-  parameterID: -1
-  invID: 0
-  replaceParameterID: -1
-  invIDReplace: 0
-  setAmount: 0
-  amountParameterID: -1
-  amount: 1
-  setPlayer: 0
-  playerID: 0
-  addToFront: 0
-  removeLast: 0
-  itemRemoveMethod: 0
-  categoryID: 0
-  categoryIDParameterID: -1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,67 +871,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &650817373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 10
-    y: 276.6
-    width: 300
-    height: 186.6
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3115159497059896156}
-  groupID: 0
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: An axe? This could be useful in some way...
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!114 &709749443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1026,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Paw prints? Maybe i should follow them...
+  messageText: Those prints look a bit different. Should i go this way?
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -1129,7 +1068,7 @@ Transform:
   m_GameObject: {fileID: 854314652}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 6.93, y: 0.35, z: 0}
+  m_LocalPosition: {x: 7.9, y: -2.89, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1359,6 +1298,69 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &854529665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 318
+    width: 300
+    height: 186.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3115159497059896156}
+  groupID: 0
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: 'I can use this to break the log.
+
+'
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0.5
 --- !u!1 &904276973
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,7 +1883,7 @@ Transform:
   m_GameObject: {fileID: 923762650}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 8.15, y: -2.88, z: 0}
+  m_LocalPosition: {x: 7.6, y: 0.48, z: 0}
   m_LocalScale: {x: 0.15, y: 0.15, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2344,7 +2346,7 @@ Transform:
   m_GameObject: {fileID: 1177894157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.45, y: -1.49, z: -0.07}
+  m_LocalPosition: {x: 3.47, y: -1.54, z: -0.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2386,7 +2388,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 172.2
+    height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 266747813}
@@ -2397,7 +2399,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Maybe it's this way...
+  messageText: Those are weird paw prints. I'm gonna check this way anyway.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2501,7 +2503,8 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Let's see where those paw prints will lead me...
+  messageText: Those are the same paw prints as before. I think i need to follow
+    them.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2611,7 +2614,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 172.2
+    height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 1422508197536674807}
@@ -2622,7 +2625,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: 'This is heavy... '
+  messageText: I think i can push this out of the way.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -2636,66 +2639,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0.5
---- !u!114 &1412821310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 112
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3115159497059896156}
-  groupID: 0
-  gameObject: {fileID: 7308528878131591793}
-  parameterID: -1
-  constantID: 0
-  replaceGameObject: {fileID: 0}
-  replaceParameterID: -1
-  replaceConstantID: 0
-  relativeGameObject: {fileID: 0}
-  relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
-  relativeVectorParameterID: -1
-  relativeVector: {x: 0, y: 0, z: 0}
-  vectorVarParameterID: -1
-  vectorVarID: 0
-  variableLocation: 0
-  invAction: 1
-  positionRelativeTo: 0
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  spawnedObjectParameterID: -1
 --- !u!1 &1568964447
 GameObject:
   m_ObjectHideFlags: 0
@@ -3053,7 +2996,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: Scene2
+  sceneName: Level-1.1
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -3155,7 +3098,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0135655543cdbad409401a3101addca9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 863ac64e9bd3587439015ca1f738aee2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3220,7 +3163,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: Level-1.2
+  sceneName: Level-1.3
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
@@ -3352,8 +3295,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 20.400002
-    y: 296.4
+    x: 14
+    y: 298
     width: 300
     height: 172.2
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3366,7 +3309,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Now i can also go this way...
+  messageText: Oof! Now i can go this way.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4109,7 +4052,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: There is something in the way
+  messageText: There is something in the way...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -4123,6 +4066,66 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0.5
+--- !u!114 &2130863762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3339a0ba7074d969436b88c517d06f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 176
+    width: 300
+    height: 112
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3115159497059896156}
+  groupID: 0
+  gameObject: {fileID: 7308528878131591793}
+  parameterID: -1
+  constantID: 0
+  replaceGameObject: {fileID: 0}
+  replaceParameterID: -1
+  replaceConstantID: 0
+  relativeGameObject: {fileID: 0}
+  relativeGameObjectID: 0
+  relativeGameObjectParameterID: -1
+  relativeVectorParameterID: -1
+  relativeVector: {x: 0, y: 0, z: 0}
+  vectorVarParameterID: -1
+  vectorVarID: 0
+  variableLocation: 0
+  invAction: 1
+  positionRelativeTo: 0
+  variables: {fileID: 0}
+  variablesConstantID: 0
+  spawnedObjectParameterID: -1
 --- !u!60 &691459200578408103
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4167,14 +4170,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -8.560298, y: -1.1975167}
+    - - {x: -8.538742, y: -1.3915226}
       - {x: -7.5846004, y: -1.0906973}
       - {x: -6.771145, y: -1.0806568}
       - {x: -6.0450206, y: -0.9759339}
       - {x: -5.227855, y: -0.8571801}
       - {x: -4.3746505, y: -0.8256229}
-      - {x: -3.433537, y: -0.9557538}
-      - {x: -2.462, y: -0.9645146}
+      - {x: -3.5101748, y: -1.1090306}
+      - {x: -2.500319, y: -1.1177914}
       - {x: -2.0742407, y: -1.0137621}
       - {x: -1.5886006, y: -1.0689042}
       - {x: -1.1533747, y: -1.0325396}
@@ -4182,46 +4185,44 @@ PolygonCollider2D:
       - {x: -0.5660167, y: -0.9926723}
       - {x: -0.08305639, y: -0.90322}
       - {x: 0.5942141, y: -0.97480947}
-      - {x: 1.1943164, y: -0.5947902}
+      - {x: 0.89252853, y: -0.8965775}
       - {x: 0.74652725, y: -0.08664423}
       - {x: 0.6349615, y: 0.4928307}
       - {x: 0.63288975, y: 0.8838018}
-      - {x: 0.6112536, y: 1.0555103}
-      - {x: 0.59858173, y: 2.2161484}
-      - {x: 0.6172988, y: 2.7913067}
+      - {x: 0.74059176, y: 1.0555103}
+      - {x: 0.70636296, y: 2.2377043}
       - {x: 0.8472957, y: 3.4995759}
-      - {x: 1.2945509, y: 4.075366}
-      - {x: 1.8231506, y: 3.5924728}
+      - {x: 1.3161058, y: 3.752022}
+      - {x: 1.952488, y: 3.9158158}
       - {x: 1.8245223, y: 2.9730663}
       - {x: 2.1487856, y: 2.0352793}
       - {x: 2.227091, y: 1.6708235}
-      - {x: 2.6176522, y: 1.1015546}
-      - {x: 3.3098438, y: 1.0150952}
-      - {x: 4.1889896, y: 0.76560587}
-      - {x: 5.0199766, y: 0.7755931}
-      - {x: 5.620584, y: 0.83500546}
-      - {x: 6.4990606, y: 0.91115797}
+      - {x: 2.6797154, y: 1.200856}
+      - {x: 3.260193, y: 1.0150952}
+      - {x: 4.0400386, y: 0.9642082}
+      - {x: 4.6972475, y: 0.97419554}
+      - {x: 5.5461073, y: 0.9467193}
+      - {x: 6.6231875, y: 1.2462996}
       - {x: 7.097248, y: 1.1475872}
       - {x: 8.099054, y: 1.1647149}
       - {x: 8.992048, y: 1.0733249}
       - {x: 9.574462, y: 0.9511137}
       - {x: 9.536722, y: -0.11779213}
       - {x: 8.772198, y: -0.24475336}
-      - {x: 8.250363, y: -0.5265994}
-      - {x: 7.5611835, y: -0.6273156}
-      - {x: 6.437049, y: -0.8715712}
-      - {x: 5.936838, y: -1.202919}
-      - {x: 4.973616, y: -1.1922319}
-      - {x: 4.5030103, y: -1.3314033}
-      - {x: 3.9373405, y: -1.6750185}
-      - {x: 3.445318, y: -1.146495}
-      - {x: 2.9796479, y: -2.0435946}
-      - {x: 2.3440108, y: -2.6543474}
-      - {x: 3.1207576, y: -2.673968}
-      - {x: 3.8665996, y: -2.6086843}
+      - {x: 8.200711, y: -0.6259006}
+      - {x: 7.4742956, y: -1.0617583}
+      - {x: 6.7473645, y: -1.2687759}
+      - {x: 5.862364, y: -1.4387593}
+      - {x: 4.683197, y: -1.5670328}
+      - {x: 4.0401564, y: -1.6750185}
+      - {x: 3.5818572, y: -1.8043654}
+      - {x: 3.1161866, y: -2.1925464}
+      - {x: 2.6791523, y: -2.5550463}
+      - {x: 3.1207576, y: -2.5622542}
+      - {x: 3.9038365, y: -2.4597325}
       - {x: 5.1135597, y: -2.4015787}
-      - {x: 7.0082817, y: -2.5850205}
-      - {x: 8.653358, y: -2.3088808}
+      - {x: 7.107582, y: -2.2498791}
+      - {x: 8.703009, y: -2.1102784}
       - {x: 9.555035, y: -2.386366}
       - {x: 9.568446, y: -2.697001}
       - {x: 9.557685, y: -3.8926387}
@@ -4229,20 +4230,19 @@ PolygonCollider2D:
       - {x: 8.015505, y: -4.3907814}
       - {x: 7.0268674, y: -4.4596987}
       - {x: 5.8671093, y: -4.499339}
-      - {x: 5.576552, y: -4.2609973}
       - {x: 4.794936, y: -4.234595}
-      - {x: 3.8925219, y: -4.245702}
+      - {x: 3.806298, y: -4.4181514}
       - {x: 2.848723, y: -4.4774995}
-      - {x: 2.14298, y: -4.3144293}
-      - {x: 1.3092908, y: -4.416295}
-      - {x: 0.28026783, y: -4.5356703}
+      - {x: 1.9705317, y: -4.4653225}
+      - {x: 1.1152847, y: -4.5671883}
+      - {x: 0.25871098, y: -4.6650076}
       - {x: -0.5459445, y: -4.783457}
       - {x: -1.3332182, y: -4.8528056}
       - {x: -2.6899304, y: -4.9125905}
-      - {x: -3.2146056, y: -4.592256}
-      - {x: -4.6868243, y: -5.109054}
-      - {x: -9.427681, y: -4.7735124}
-      - {x: -9.604005, y: -1.3313056}
+      - {x: -3.451724, y: -4.9587116}
+      - {x: -4.2556996, y: -5.410841}
+      - {x: -9.600131, y: -5.3986425}
+      - {x: -9.560893, y: -1.6977618}
   m_UseDelaunayMesh: 0
 --- !u!4 &691459200583948711
 Transform:
@@ -4583,9 +4583,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 1412821310}
-  - {fileID: 549929249}
-  - {fileID: 650817373}
+  - {fileID: 440713986}
+  - {fileID: 2130863762}
+  - {fileID: 854529665}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
