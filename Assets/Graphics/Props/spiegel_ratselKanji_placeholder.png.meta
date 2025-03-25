@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_0
+      name: 12
       rect:
         serializedVersion: 2
         x: 311
@@ -105,7 +105,7 @@ TextureImporter:
         width: 42
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -118,7 +118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_2
+      name: 11
       rect:
         serializedVersion: 2
         x: 459
@@ -126,7 +126,7 @@ TextureImporter:
         width: 22
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_4
+      name: 23
       rect:
         serializedVersion: 2
         x: 610
@@ -147,7 +147,7 @@ TextureImporter:
         width: 59
         height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +160,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_5
+      name: 22
       rect:
         serializedVersion: 2
         x: 886
@@ -168,7 +168,7 @@ TextureImporter:
         width: 56
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -189,7 +189,7 @@ TextureImporter:
         width: 34
         height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_7
+      name: 34
       rect:
         serializedVersion: 2
         x: 1334
@@ -210,7 +210,7 @@ TextureImporter:
         width: 35
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,7 +223,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_8
+      name: 47
       rect:
         serializedVersion: 2
         x: 1539
@@ -231,7 +231,7 @@ TextureImporter:
         width: 60
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,7 +244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_9
+      name: 46
       rect:
         serializedVersion: 2
         x: 1775
@@ -252,7 +252,7 @@ TextureImporter:
         width: 45
         height: 49
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,7 +265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_10
+      name: 21
       rect:
         serializedVersion: 2
         x: 765
@@ -273,7 +273,7 @@ TextureImporter:
         width: 37
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,7 +286,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_11
+      name: 32
       rect:
         serializedVersion: 2
         x: 1209
@@ -294,7 +294,7 @@ TextureImporter:
         width: 27
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_12
+      name: 13
       rect:
         serializedVersion: 2
         x: 55
@@ -315,7 +315,7 @@ TextureImporter:
         width: 33
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,7 +336,7 @@ TextureImporter:
         width: 348
         height: 458
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,7 +357,7 @@ TextureImporter:
         width: 347
         height: 456
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -378,7 +378,7 @@ TextureImporter:
         width: 349
         height: 460
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -399,7 +399,7 @@ TextureImporter:
         width: 347
         height: 457
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,7 +412,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_17
+      name: 14
       rect:
         serializedVersion: 2
         x: 54
@@ -420,7 +420,7 @@ TextureImporter:
         width: 32
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_19
+      name: 15
       rect:
         serializedVersion: 2
         x: 51
@@ -441,7 +441,7 @@ TextureImporter:
         width: 57
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -454,7 +454,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_22
+      name: 16
       rect:
         serializedVersion: 2
         x: 211
@@ -462,7 +462,7 @@ TextureImporter:
         width: 40
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -475,7 +475,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_24
+      name: 17
       rect:
         serializedVersion: 2
         x: 438
@@ -483,7 +483,7 @@ TextureImporter:
         width: 31
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,7 +496,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_26
+      name: 24
       rect:
         serializedVersion: 2
         x: 579
@@ -504,7 +504,7 @@ TextureImporter:
         width: 50
         height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,7 +517,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_28
+      name: 45
       rect:
         serializedVersion: 2
         x: 1483
@@ -525,7 +525,7 @@ TextureImporter:
         width: 46
         height: 44
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -538,7 +538,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_29
+      name: 43
       rect:
         serializedVersion: 2
         x: 1665
@@ -546,7 +546,7 @@ TextureImporter:
         width: 46
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -559,7 +559,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_30
+      name: 41
       rect:
         serializedVersion: 2
         x: 1841
@@ -567,7 +567,7 @@ TextureImporter:
         width: 29
         height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -580,7 +580,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_32
+      name: 25
       rect:
         serializedVersion: 2
         x: 716
@@ -588,7 +588,7 @@ TextureImporter:
         width: 49
         height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -601,7 +601,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_33
+      name: 31
       rect:
         serializedVersion: 2
         x: 1079
@@ -609,7 +609,7 @@ TextureImporter:
         width: 43
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -622,7 +622,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_34
+      name: 33
       rect:
         serializedVersion: 2
         x: 1279
@@ -630,7 +630,7 @@ TextureImporter:
         width: 36
         height: 35
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -643,15 +643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_35
+      name: 26
       rect:
         serializedVersion: 2
-        x: 854
+        x: 853
         y: 202
         width: 43
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -664,7 +664,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_36
+      name: 44
       rect:
         serializedVersion: 2
         x: 1483
@@ -672,7 +672,7 @@ TextureImporter:
         width: 39
         height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -685,7 +685,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_40
+      name: 42
       rect:
         serializedVersion: 2
         x: 1745
@@ -693,7 +693,7 @@ TextureImporter:
         width: 53
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -716,52 +716,52 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spiegel_ratselKanji_placeholder_0: -755542882
+      11: 1685961038
+      12: -755542882
+      13: 1086031120
+      14: 375215748
+      15: -1827816704
+      16: 403514930
+      17: 91078336
+      21: -720102915
+      22: 1329174779
+      23: -1902244084
+      24: 1526803812
+      25: 1001627952
+      26: -1132241223
+      31: 1056923205
+      32: 824126527
+      33: -2036572944
+      34: -1583186884
+      41: -1304535343
+      42: 1753676026
+      43: -633765944
+      44: -134118211
+      45: 1939439572
+      46: -942227551
+      47: 71385333
       spiegel_ratselKanji_placeholder_1: -903674813
-      spiegel_ratselKanji_placeholder_10: -720102915
-      spiegel_ratselKanji_placeholder_11: 824126527
-      spiegel_ratselKanji_placeholder_12: 1086031120
       spiegel_ratselKanji_placeholder_13: -884185895
       spiegel_ratselKanji_placeholder_14: -1460664757
       spiegel_ratselKanji_placeholder_15: -2092233840
       spiegel_ratselKanji_placeholder_16: -1538262280
-      spiegel_ratselKanji_placeholder_17: 375215748
       spiegel_ratselKanji_placeholder_18: 1553124716
-      spiegel_ratselKanji_placeholder_19: -1827816704
-      spiegel_ratselKanji_placeholder_2: 1685961038
       spiegel_ratselKanji_placeholder_20: 1527329691
       spiegel_ratselKanji_placeholder_21: -1203476908
-      spiegel_ratselKanji_placeholder_22: 403514930
       spiegel_ratselKanji_placeholder_23: -805007177
-      spiegel_ratselKanji_placeholder_24: 91078336
       spiegel_ratselKanji_placeholder_25: -1623689000
-      spiegel_ratselKanji_placeholder_26: 1526803812
       spiegel_ratselKanji_placeholder_27: -1080624770
-      spiegel_ratselKanji_placeholder_28: 1939439572
-      spiegel_ratselKanji_placeholder_29: -633765944
       spiegel_ratselKanji_placeholder_3: -911294704
-      spiegel_ratselKanji_placeholder_30: -1304535343
       spiegel_ratselKanji_placeholder_31: 1985225469
-      spiegel_ratselKanji_placeholder_32: 1001627952
-      spiegel_ratselKanji_placeholder_33: 1056923205
-      spiegel_ratselKanji_placeholder_34: -2036572944
-      spiegel_ratselKanji_placeholder_35: -1132241223
-      spiegel_ratselKanji_placeholder_36: -134118211
       spiegel_ratselKanji_placeholder_37: -17203119
       spiegel_ratselKanji_placeholder_38: 1600860142
       spiegel_ratselKanji_placeholder_39: -833540214
-      spiegel_ratselKanji_placeholder_4: -1902244084
-      spiegel_ratselKanji_placeholder_40: 1753676026
       spiegel_ratselKanji_placeholder_41: 1983660660
       spiegel_ratselKanji_placeholder_42: -487461008
       spiegel_ratselKanji_placeholder_43: 1880053274
       spiegel_ratselKanji_placeholder_44: 231848050
       spiegel_ratselKanji_placeholder_45: -886929412
-      spiegel_ratselKanji_placeholder_5: 1329174779
       spiegel_ratselKanji_placeholder_6: -1343823659
-      spiegel_ratselKanji_placeholder_7: -1583186884
-      spiegel_ratselKanji_placeholder_8: 71385333
-      spiegel_ratselKanji_placeholder_9: -942227551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
