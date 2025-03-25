@@ -1151,7 +1151,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: Fail
+  hotspotName: This way?
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -1409,7 +1409,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: Fail
+  hotspotName: This way?
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -1664,7 +1664,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: Fail
+  hotspotName: This way?
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -2386,7 +2386,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 172.2
+    height: 186.6
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 266747813}
@@ -2397,7 +2397,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Maybe it's this way...
+  messageText: Maybe this way will lead to the goal...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
