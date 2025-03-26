@@ -40,7 +40,7 @@ MonoBehaviour:
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
   events: []
-  savePlayerReferencesWithAddressables: 0
+  savePlayerReferencesWithAddressables: 1
   playerSwitching: 1
   legacyPlayer: {fileID: 0}
   playerPrefab:
