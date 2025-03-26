@@ -181,7 +181,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spiegel_ratselKanji_placeholder_6
+      name: 35
       rect:
         serializedVersion: 2
         x: 1063
@@ -733,6 +733,7 @@ TextureImporter:
       32: 824126527
       33: -2036572944
       34: -1583186884
+      35: -1343823659
       41: -1304535343
       42: 1753676026
       43: -633765944
@@ -761,7 +762,6 @@ TextureImporter:
       spiegel_ratselKanji_placeholder_43: 1880053274
       spiegel_ratselKanji_placeholder_44: 231848050
       spiegel_ratselKanji_placeholder_45: -886929412
-      spiegel_ratselKanji_placeholder_6: -1343823659
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
