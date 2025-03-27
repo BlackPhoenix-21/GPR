@@ -7,20 +7,25 @@ public class StatueTeile : MonoBehaviour
 {
     private Hotspot hotspot;
     private int tileNum = 0;
+    public GameObject destroyObject;
     void Start()
     {
         hotspot = GetComponent<Hotspot>();
         hotspot.enabled = false;
         foreach (var item in KickStarter.runtimeInventory.localItems)
         {
-            if (item != null && item.linkedPrefab != null && item.linkedPrefab.name == gameObject.name)
+            for (int i = 1; i < 8; i++)
             {
-                tileNum++;
+                if (item != null && item.linkedPrefab != null && item.linkedPrefab.name == "Statue_" + i)
+                {
+                    tileNum++;
+                }
             }
         }
         if (tileNum == 7)
         {
             hotspot.enabled = true;
+            Destroy(destroyObject);
         }
     }
 }

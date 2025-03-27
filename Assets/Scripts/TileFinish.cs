@@ -17,6 +17,8 @@ public class TileFinish : MonoBehaviour
     private GameObject[] tiles;
     private bool[] tilesBool = new bool[7] { false, false, false, false, false, false, false };
     public GameObject shrine;
+    public Sprite sprite;
+    public GameObject background;
     void Awake()
     {
         shrine.SetActive(false);
@@ -65,9 +67,8 @@ public class TileFinish : MonoBehaviour
         if (count == 7)
         {
             shrine.SetActive(true);
+            background.GetComponent<SpriteRenderer>().sprite = sprite;
             Debug.Log("You Win!");
         }
     }
-
-    // Random Spawnpoints?
 }
