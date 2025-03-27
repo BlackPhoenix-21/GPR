@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - BackgroundCamera
+  - Tile
   layers:
   - Default
   - TransparentFX
