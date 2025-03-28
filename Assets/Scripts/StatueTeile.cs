@@ -12,6 +12,11 @@ public class StatueTeile : MonoBehaviour
     {
         hotspot = GetComponent<Hotspot>();
         hotspot.enabled = false;
+        StartCoroutine(OnLevelWasLoaded());
+    }
+    IEnumerator OnLevelWasLoaded()
+    {
+        yield return new WaitForSeconds(0.3f);
         foreach (var item in KickStarter.runtimeInventory.localItems)
         {
             for (int i = 1; i < 8; i++)
