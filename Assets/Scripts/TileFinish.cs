@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using AC;
 using UnityEngine;
 
 public class TileFinish : MonoBehaviour
@@ -68,7 +69,12 @@ public class TileFinish : MonoBehaviour
         {
             shrine.SetActive(true);
             background.GetComponent<SpriteRenderer>().sprite = sprite;
-            Debug.Log("You Win!");
+            StartCoroutine(HoldUp());
         }
+    }
+    IEnumerator HoldUp()
+    {
+        yield return new WaitForSeconds(2f);
+        GameObject.Find("Exit: Use").GetComponent<Interaction>().RunFromIndex(0);
     }
 }

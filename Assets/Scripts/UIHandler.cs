@@ -24,14 +24,12 @@ public class UIHandler : MonoBehaviour
     {
         if (UI == null)
         {
-            Debug.Log("UI is null");
             return;
         }
 
         if (statue.transform.position == new Vector3(0, 0, 0))
         {
             online = true;
-            Debug.Log("Online");
         }
         else
         {
