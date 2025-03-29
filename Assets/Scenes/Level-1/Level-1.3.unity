@@ -2319,6 +2319,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4314682714869701479, guid: 93624da5dfd576545a482d10376013e2, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 66c23a6788acfa04e982c9ef4b2c1dfd, type: 3}
     - target: {fileID: 5210973582824924001, guid: 93624da5dfd576545a482d10376013e2, type: 3}
       propertyPath: m_Name
       value: "Waldger\xE4usche"

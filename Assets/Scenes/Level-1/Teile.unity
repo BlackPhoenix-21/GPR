@@ -239,67 +239,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!114 &174452293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 186.6
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  groupID: 0
-  constantID: 0
-  parameterID: -1
-  messageParameterID: -1
-  isPlayer: 1
-  playerID: -1
-  speaker: {fileID: 0}
-  messageText: What is this? Looks like parts of a statue... Let me pick them up...
-  lineID: -1
-  multiLineIDs: 
-  isBackground: 0
-  noAnimation: 0
-  headClip: {fileID: 0}
-  mouthClip: {fileID: 0}
-  play2DHeadAnim: 0
-  headClip2D: 
-  headLayer: 0
-  play2DMouthAnim: 0
-  mouthClip2D: 
-  mouthLayer: 0
-  waitTimeOffset: 0
 --- !u!1 &208694278 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5402558265412810652, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
@@ -958,7 +897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -722, y: 437}
+  m_AnchoredPosition: {x: -707, y: 237}
   m_SizeDelta: {x: 70, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561579581
@@ -1702,6 +1641,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 869112025}
   m_CullTransparentMesh: 1
+--- !u!114 &882620729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 186.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4345507128211053735}
+  groupID: 0
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: What is this? Looks like parts of a statue... Let me pick them up...
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!1 &902763151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,9 +1729,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 864f2778acd8ba24a89dd92fd367b081, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 66c23a6788acfa04e982c9ef4b2c1dfd, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.407
+  m_Volume: 0.215
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2938,7 +2938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 174452293}
+  - {fileID: 882620729}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -3085,11 +3085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.39
+      value: 4.83
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.13
+      value: -3.09
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3138,11 +3138,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.66
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7
+      value: -3.18
       objectReference: {fileID: 0}
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3199,11 +3199,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.23
+      value: 3.46
       objectReference: {fileID: 0}
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.13
+      value: -1.68
       objectReference: {fileID: 0}
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3332,11 +3332,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.44
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.88
+      value: -3.24
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3599,11 +3599,11 @@ PrefabInstance:
       objectReference: {fileID: 6875403563738787832}
     - target: {fileID: 4474694167119999747, guid: 7537a6e875d73f84ca20d4a02257bfa9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.54
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 4474694167119999747, guid: 7537a6e875d73f84ca20d4a02257bfa9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.53
+      value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 4474694167119999747, guid: 7537a6e875d73f84ca20d4a02257bfa9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3656,11 +3656,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3968317832228635768, guid: 9976b13ec6282484389e122dc99fa038, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.29
+      value: -6.27
       objectReference: {fileID: 0}
     - target: {fileID: 3968317832228635768, guid: 9976b13ec6282484389e122dc99fa038, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.21
+      value: -1.31
       objectReference: {fileID: 0}
     - target: {fileID: 3968317832228635768, guid: 9976b13ec6282484389e122dc99fa038, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3721,11 +3721,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6279466924701186615, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.19
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 6279466924701186615, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.81
+      value: -1.83
       objectReference: {fileID: 0}
     - target: {fileID: 6279466924701186615, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
       propertyPath: m_LocalPosition.z
