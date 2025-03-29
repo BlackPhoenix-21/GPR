@@ -7,7 +7,7 @@ public class MoveTileM : MonoBehaviour
 {
     private GameObject spiegel;
     private Vector3 finishPos;
-    private float floater = 0.25f;
+    private float floater = 0.3f;
     private bool moveable = false;
     private int spiegelnum;
     private string spiegelname;

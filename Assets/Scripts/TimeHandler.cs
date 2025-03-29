@@ -58,7 +58,7 @@ public class TimeHandler : MonoBehaviour
 
         if (timerFinished)
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
         }
     }
     IEnumerator Timer()
