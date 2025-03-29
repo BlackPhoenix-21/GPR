@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using AC;
 using UnityEngine;
 
 public class TimeHandler : MonoBehaviour
@@ -19,13 +20,18 @@ public class TimeHandler : MonoBehaviour
     {
         if (!timerActive)
         {
-            Debug.Log("Timer is not active.");
             canvas.SetActive(false);
             return;
         }
         else
         {
             canvas.SetActive(true);
+        }
+
+        if (!timerStarted)
+        {
+            timerStarted = true;
+            StartCoroutine(Timer());
         }
 
         timerString = "Timer: ";
@@ -43,6 +49,17 @@ public class TimeHandler : MonoBehaviour
             timerString += timer.ToString();
         }
         canvas.GetComponent<UnityEngine.UI.Text>().text = timerString;
+
+        if (timer <= 0)
+        {
+            timerFinished = true;
+            Debug.Log("Timer finished.");
+        }
+
+        if (timerFinished)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameOverScene");
+        }
     }
     IEnumerator Timer()
     {

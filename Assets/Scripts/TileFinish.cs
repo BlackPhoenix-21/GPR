@@ -20,6 +20,7 @@ public class TileFinish : MonoBehaviour
     public GameObject shrine;
     public Sprite sprite;
     public GameObject background;
+    private TimeHandler timeHandler;
     void Awake()
     {
         shrine.SetActive(false);
@@ -76,5 +77,8 @@ public class TileFinish : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         GameObject.Find("Exit: Use").GetComponent<Interaction>().RunFromIndex(0);
+        GameObject.Find("StatueFinished").GetComponent<Interaction>().RunFromIndex(0);
+        timeHandler = GameObject.Find("TimeHandler").GetComponent<TimeHandler>();
+        timeHandler.timerActive = true;
     }
 }
