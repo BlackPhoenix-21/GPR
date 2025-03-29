@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/INtro/Intro.unity
+    guid: 49f4e78533a340e43bb4ce6be9d08e49
+  - enabled: 1
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: 380f2492d44eeec40a918f3309ad81a0
   - enabled: 1
@@ -39,6 +42,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscene_2/Cutscene_2.unity
     guid: 396606c48c6b0714bb56349ffa6afe18
   - enabled: 1
-    path: Assets/Scenes/INtro/Intro.unity
-    guid: b5c05da20bea46b40980f428d1470163
+    path: Assets/Scenes/Endings/GameOver.unity
+    guid: afe4d2e9640fad7498153593c23cd46e
+  - enabled: 1
+    path: Assets/Scenes/Endings/GameWin.unity
+    guid: 1cf97f5ca62920441ada878ff25df0e3
   m_configObjects: {}
