@@ -5,17 +5,21 @@ using UnityEngine;
 
 public class TimeHandler : MonoBehaviour
 {
-    public float timer;
+    public float timer = 300f; // 5 minutes in seconds
     public bool timerActive = false;
     public bool timerFinished = false;
     public bool timerStarted = false;
     private string timerString;
-
+    private GameObject canvas;
+    void Start()
+    {
+        canvas = GameObject.Find("TimerCanvas");
+    }
     void Update()
     {
-        GameObject canvas = GameObject.Find("Timer");
         if (!timerActive)
         {
+            Debug.Log("Timer is not active.");
             canvas.SetActive(false);
             return;
         }

@@ -24,10 +24,26 @@ public class StatueTeile : MonoBehaviour
                 if (item != null && item.linkedPrefab != null && item.linkedPrefab.name == "Statue_" + i)
                 {
                     tileNum++;
+                    KickStarter.runtimeInventory.Remove(item.id);
+                    continue;
                 }
             }
         }
-        if (tileNum == 7)
+        foreach (var item in KickStarter.runtimeInventory.localItems)
+        {
+            for (int i = 1; i < 8; i++)
+            {
+                if (item != null && item.linkedPrefab != null && item.linkedPrefab.name == "Statue_" + i)
+                {
+                    if (tileNum >= 7)
+                    {
+                        KickStarter.runtimeInventory.Remove(item.id);
+                    }
+                    continue;
+                }
+            }
+        }
+        if (tileNum >= 7)
         {
             hotspot.enabled = true;
             Destroy(destroyObject);
