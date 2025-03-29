@@ -80,6 +80,7 @@ public class MoveTileM : MonoBehaviour
         {
             moveable = false;
             finsihed = true;
+            spiegel = GameObject.Find(spiegelname);
             spiegel.GetComponent<TileFinishM>().isFinished = true;
         }
     }

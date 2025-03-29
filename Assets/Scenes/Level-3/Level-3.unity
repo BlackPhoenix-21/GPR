@@ -306,7 +306,7 @@ Transform:
   m_GameObject: {fileID: 116470639}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.337, y: -0.467, z: -0.02}
+  m_LocalPosition: {x: -1.385, y: -0.517, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -664,7 +664,7 @@ Transform:
   m_GameObject: {fileID: 232843207}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.94, z: -0.02}
+  m_LocalPosition: {x: 1.719, y: -2.156, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1108,9 +1108,9 @@ Transform:
   m_GameObject: {fileID: 334522849}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.95, y: 0.94, z: 0.01}
-  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -3.5, y: 2.35, z: 0.01}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 460881463}
   m_Father: {fileID: 1550377128}
@@ -1277,7 +1277,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.49, y: 4.6}
+    oldSize: {x: 4.06, y: 5.23}
     newSize: {x: 3.48, y: 4.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1327,7 +1327,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2092233840, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: -1903303897, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1366,7 +1366,7 @@ Transform:
   m_GameObject: {fileID: 335586189}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.343, y: 1.152, z: -0.02}
+  m_LocalPosition: {x: -1.399, y: 1.004, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1824,7 +1824,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionParamSet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":35586},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":460881464_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":4,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":29772},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":460881464_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":4,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionHotspotEnable
@@ -2038,7 +2038,7 @@ Transform:
   m_GameObject: {fileID: 528209431}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.428, y: 1.155, z: -0.02}
+  m_LocalPosition: {x: 1.772, y: 1.205, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2181,7 +2181,7 @@ Transform:
   m_GameObject: {fileID: 560610987}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.428, y: 1.155, z: -0.02}
+  m_LocalPosition: {x: 1.772, y: 1.2050011, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2407,8 +2407,8 @@ Transform:
   m_GameObject: {fileID: 640650624}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.45, y: 0, z: -0.02}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1024076678}
@@ -2468,7 +2468,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1460664757, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: -1903303897, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2877,7 +2877,7 @@ Transform:
   m_GameObject: {fileID: 807435811}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.449, y: -0.158, z: -0.02}
+  m_LocalPosition: {x: 1.806, y: -0.176, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3098,7 +3098,7 @@ Transform:
   m_GameObject: {fileID: 825012669}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.428, y: 1.155, z: -0.02}
+  m_LocalPosition: {x: 1.772, y: 1.2050011, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3397,7 +3397,7 @@ Transform:
   m_GameObject: {fileID: 894755635}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.343, y: 1.152, z: -0.02}
+  m_LocalPosition: {x: -1.399, y: 1.0040002, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3579,7 +3579,7 @@ Transform:
   m_GameObject: {fileID: 912777856}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119, y: 1.949, z: -0.02}
+  m_LocalPosition: {x: -0.082, y: 1.651, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3722,7 +3722,7 @@ Transform:
   m_GameObject: {fileID: 925310946}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.343, y: 1.152, z: -0.02}
+  m_LocalPosition: {x: -1.399, y: 1.0040002, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3911,7 +3911,7 @@ Transform:
   m_GameObject: {fileID: 943864270}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119, y: 1.949, z: -0.02}
+  m_LocalPosition: {x: -0.082, y: 1.6509997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4463,7 +4463,7 @@ Transform:
   m_GameObject: {fileID: 1138591306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.428, y: 1.155, z: -0.02}
+  m_LocalPosition: {x: 1.772, y: 1.2050011, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4650,7 +4650,7 @@ Transform:
   m_GameObject: {fileID: 1164705899}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.449, y: -0.158, z: -0.02}
+  m_LocalPosition: {x: 1.725, y: -0.1739998, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -4793,9 +4793,9 @@ Transform:
   m_GameObject: {fileID: 1186034048}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.46, y: 0.92, z: 0.01}
-  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -6.5, y: 2.45, z: 0.01}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7499459746230404329}
   m_Father: {fileID: 1550377128}
@@ -4962,7 +4962,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.47, y: 4.56}
+    oldSize: {x: 4.06, y: 5.23}
     newSize: {x: 3.48, y: 4.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5012,7 +5012,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1460664757, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: -1903303897, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5097,7 +5097,7 @@ Transform:
   m_GameObject: {fileID: 1257294841}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: -1.95, z: -0.02}
+  m_LocalPosition: {x: -0.57, y: -2.199, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -5414,9 +5414,9 @@ Transform:
   m_GameObject: {fileID: 1354065136}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.3, y: 0.6, z: 0.01}
-  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -8, y: 2.5, z: 0.01}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2679313634437700213}
   m_Father: {fileID: 1550377128}
@@ -5583,7 +5583,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.48, y: 4.58}
+    oldSize: {x: 4.13, y: 5.23}
     newSize: {x: 3.48, y: 4.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5633,7 +5633,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -884185895, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: 1046929451, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5907,7 +5907,7 @@ Transform:
   m_GameObject: {fileID: 1473829376}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.337, y: -0.467, z: -0.02}
+  m_LocalPosition: {x: -1.385, y: -0.51699924, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6180,7 +6180,7 @@ Transform:
   m_GameObject: {fileID: 1482884219}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119, y: 1.949, z: -0.02}
+  m_LocalPosition: {x: -0.082, y: 1.6509997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6589,7 +6589,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionParamSet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":36084},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1592919612_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":3,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":30290},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1592919612_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":3,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionHotspotEnable
@@ -6696,7 +6696,7 @@ Transform:
   m_GameObject: {fileID: 1616986548}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.449, y: -0.158, z: -0.02}
+  m_LocalPosition: {x: 1.806, y: -0.17599966, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -6903,7 +6903,7 @@ Transform:
   m_GameObject: {fileID: 1673875627}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.119, y: 1.949, z: -0.02}
+  m_LocalPosition: {x: -0.082, y: 1.6509997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7046,7 +7046,7 @@ Transform:
   m_GameObject: {fileID: 1689941950}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.94, z: -0.02}
+  m_LocalPosition: {x: 1.719, y: -2.1559997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7189,9 +7189,9 @@ Transform:
   m_GameObject: {fileID: 1732380656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.66, y: 0.18, z: 0.01}
-  m_LocalScale: {x: 0.68, y: 0.68, z: 0.68}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -5, y: 2.4, z: 0.01}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1592919611}
   m_Father: {fileID: 1550377128}
@@ -7358,7 +7358,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.47, y: 4.57}
+    oldSize: {x: 4.06, y: 5.23}
     newSize: {x: 3.48, y: 4.58}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7408,7 +7408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1538262280, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: 1877761991, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7477,7 +7477,7 @@ GameObject:
   - component: {fileID: 1789665629}
   - component: {fileID: 1789665628}
   m_Layer: 0
-  m_Name: Spiegel2
+  m_Name: Spiegel3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7492,8 +7492,8 @@ Transform:
   m_GameObject: {fileID: 1789665626}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.45, y: 0, z: -0.02}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 899615256}
@@ -7553,7 +7553,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1538262280, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: -214916465, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7700,7 +7700,7 @@ Transform:
   m_GameObject: {fileID: 1883174850}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.94, z: -0.02}
+  m_LocalPosition: {x: 1.719, y: -2.1559997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7844,7 +7844,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6.82, y: -7.81, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.59, y: 0.59, z: 0.59}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 467086429}
@@ -8016,7 +8016,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a8a24250e6db567438c3c6a382cf3796, type: 3}
+  m_Sprite: {fileID: 2136874152, guid: bc3de9a2c64f14c4eb29b382d2400deb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8063,14 +8063,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 29.21, y: 23.105566}
+    oldSize: {x: 4.51, y: 3.88}
     newSize: {x: 29.21, y: 23.105566}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 29.21, y: 23.105566}
+  m_Size: {x: 5, y: 5}
   m_EdgeRadius: 0
 --- !u!1 &1907019102
 GameObject:
@@ -8084,7 +8084,7 @@ GameObject:
   - component: {fileID: 1907019105}
   - component: {fileID: 1907019104}
   m_Layer: 0
-  m_Name: Spiegel2
+  m_Name: Spiegel4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8099,8 +8099,8 @@ Transform:
   m_GameObject: {fileID: 1907019102}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.45, y: 0, z: -0.02}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 274021272}
@@ -8160,7 +8160,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2092233840, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: 1877761991, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8199,7 +8199,7 @@ Transform:
   m_GameObject: {fileID: 1907806193}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -1.94, z: -0.02}
+  m_LocalPosition: {x: 1.719, y: -2.1559997, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8342,7 +8342,7 @@ Transform:
   m_GameObject: {fileID: 1918532399}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.449, y: -0.158, z: -0.02}
+  m_LocalPosition: {x: 1.806, y: -0.17599966, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8549,7 +8549,7 @@ Transform:
   m_GameObject: {fileID: 1927056905}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.343, y: 1.152, z: -0.02}
+  m_LocalPosition: {x: -1.399, y: 1.0040002, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8692,7 +8692,7 @@ Transform:
   m_GameObject: {fileID: 1947137992}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.337, y: -0.467, z: -0.02}
+  m_LocalPosition: {x: -1.385, y: -0.51699924, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8988,7 +8988,7 @@ Transform:
   m_GameObject: {fileID: 2009187875}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.337, y: -0.467, z: -0.02}
+  m_LocalPosition: {x: -1.385, y: -0.51699924, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -9240,8 +9240,8 @@ Transform:
   m_GameObject: {fileID: 2056045521}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.45, y: 0, z: -0.02}
+  m_LocalScale: {x: 1.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1582862360}
@@ -9287,7 +9287,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -884185895, guid: 414d89a8d6ee1ee40a8f2a97d786dc34, type: 3}
+  m_Sprite: {fileID: 1046929451, guid: 76f811faad90b1841b61b5edc2029865, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9792,7 +9792,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionParamSet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":35704},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2679313634432054197_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":1,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":29904},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2679313634432054197_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":1,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 03000000
   - className: AC.ActionHotspotEnable
@@ -10139,7 +10139,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionParamSet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":36112},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7499459746237017385_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":2,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":30318},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":418.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7499459746237017385_0},"groupID":0,"actionListSource":0,"actionList":{"instanceID":810786497_0},"actionListConstantID":0,"actionListAsset":{"instanceID":0},"changeOwn":false,"parameterID":0,"parameterToCopyID":-1,"intValue":2,"intValueMax":0,"floatValue":0.0,"floatValueMax":0.0,"stringValue":"","gameobjectValue":{"instanceID":0},"gameObjectConstantID":0,"unityObjectValue":{"instanceID":0},"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"setParamMethod":0,"globalVariableID":0,"globalVariableParameterID":-1,"ownParamID":-1,"variables":{"instanceID":0},"animator":{"instanceID":0},"animatorConstantID":0,"animatorParameterID":-1,"animatorParameterName":"","parameterLabel":"Spiegelnum"}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionHotspotEnable
@@ -10223,11 +10223,11 @@ MonoBehaviour:
   groups: []
   backupData:
   - className: AC.ActionTeleport
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":6,"skipActionActual":{"instanceID":36010},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":1582862359_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":1151856142_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":6,"skipActionActual":{"instanceID":30216},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":1582862359_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":1151856142_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 06000000
   - className: AC.ActionTeleport
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":35786},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":862.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":1901458876_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":432298445_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":29990},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":862.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":1901458876_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":432298445_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionHotspotEnable
@@ -10255,7 +10255,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionTeleport
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":35588},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":640.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":274021271_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":1151856142_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":1,"skipActionActual":{"instanceID":29774},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":640.0,"width":300.0,"height":192.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":9009362862280918882_0},"groupID":0,"obToMoveParameterID":-1,"obToMoveID":0,"obToMove":{"instanceID":274021271_0},"markerParameterID":-1,"markerID":0,"teleporter":{"instanceID":1151856142_0},"relativeGameObject":{"instanceID":0},"relativeGameObjectID":0,"relativeGameObjectParameterID":-1,"positionRelativeTo":0,"relativeVectorParameterID":-1,"relativeVector":{"x":0.0,"y":0.0,"z":0.0},"vectorVarParameterID":-1,"vectorVarID":0,"variableLocation":0,"recalculateActivePathFind":false,"isPlayer":false,"playerID":-1,"playerParameterID":-1,"snapCamera":false,"copyRotation":false,"variables":{"instanceID":0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 01000000
 --- !u!1660057539 &9223372036854775807

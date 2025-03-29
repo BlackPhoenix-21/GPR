@@ -14,4 +14,20 @@ public class LevelCheck : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        GameObject[] spiegel = GameObject.FindGameObjectsWithTag("Spiegel");
+        int count = 0;
+        foreach (var item in spiegel)
+        {
+            if (item.GetComponent<TileFinishM>().isFinished == true)
+            {
+                count++;
+            }
+        }
+        if (count == 7)
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("GameWin");
+        }
+    }
 }
