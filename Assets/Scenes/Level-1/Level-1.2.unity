@@ -2721,7 +2721,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Those are the same paw prints as before. I think i need to follow
+  messageText: Those are the same paw prints as before. I think I need to follow
     them.
   lineID: -1
   multiLineIDs: 
