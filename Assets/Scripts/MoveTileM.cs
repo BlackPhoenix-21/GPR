@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using AC;
 using UnityEngine;
 
@@ -7,7 +6,7 @@ public class MoveTileM : MonoBehaviour
 {
     private GameObject spiegel;
     private Vector3 finishPos;
-    private float floater = 0.3f;
+    private readonly float floater = 0.3f;
     private bool moveable = false;
     private int spiegelnum;
     private string spiegelname;
@@ -22,7 +21,7 @@ public class MoveTileM : MonoBehaviour
         acObject = GameObject.Find("SpiegelManager");
         ActionList myActionList = acObject.GetComponent<ActionList>();
         myParameter = myActionList.GetParameter("Spiegelnum");
-        nameint = int.Parse(gameObject.GetComponent<SpriteRenderer>().sprite.name.Substring(1));
+        nameint = int.Parse(gameObject.GetComponent<SpriteRenderer>().sprite.name.Substring(1, 1));
         startPos = new Vector2(gameObject.transform.localPosition.x, gameObject.transform.localPosition.y);
     }
 
@@ -31,6 +30,7 @@ public class MoveTileM : MonoBehaviour
         if (run == 2)
         {
             finsihed = spiegel.GetComponent<TileFinishM>().isFinished;
+            Debug.Log("finsihed: " + finsihed);
         }
         if (myParameter.intValue == 0 && run == 0)
         {
@@ -57,9 +57,8 @@ public class MoveTileM : MonoBehaviour
         {
             gameObject.transform.position = new Vector3(finishPos.x, finishPos.y, -0.02f);
             moveable = false;
+            StartCoroutine(WaitAndCheck());
         }
-
-        StartCoroutine(WaitAndCheck());
 
         if (moveable)
         {
@@ -69,7 +68,7 @@ public class MoveTileM : MonoBehaviour
 
     IEnumerator WaitAndCheck()
     {
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(0.5f);
 
         if (gameObject.transform.position == new Vector3(finishPos.x, finishPos.y, -0.02f) && nameint != 2)
         {
