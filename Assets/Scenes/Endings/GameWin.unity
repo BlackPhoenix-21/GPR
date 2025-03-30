@@ -430,7 +430,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: e374d5abee2740e4ebd93da9c7fe28a7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -786,7 +786,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c8ef6aeaf847b9e41b9e37b7ac9e93d1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.525
+  m_Volume: 0.191
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: "Better luck next time  \xAF\\_(\u30C4)_/\xAF"
+  hotspotName: JA SIEH DICH AN DU BIST EIN GEWINNER
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -1336,7 +1336,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 968e279e51e3db2459f6f266b02dcbea, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.536
+  m_Volume: 0.146
   m_Pitch: 1
   Loop: 0
   Mute: 0
