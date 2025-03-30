@@ -897,8 +897,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -707, y: 237}
-  m_SizeDelta: {x: 70, y: 30}
+  m_AnchoredPosition: {x: -677.2199, y: 244.94135}
+  m_SizeDelta: {x: 78.5086, y: 32.269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561579581
 MonoBehaviour:
@@ -1564,10 +1564,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Zur\xFCck\n"
+  m_text: 'Go Back
+
+'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
+  m_sharedMaterial: {fileID: -3104326968060610033, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
