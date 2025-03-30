@@ -14,8 +14,8 @@ public class MoveTileGod : MonoBehaviour
     {
         col = GameObject.Find("Exit");
         statue = GameObject.Find("Statue");
-        string name = gameObject.GetComponent<SpriteRenderer>().sprite.name;
-        tileName = int.Parse(name.Split("1_")[1]) - 1;
+        string namethis = gameObject.GetComponent<SpriteRenderer>().sprite.name;
+        tileName = int.Parse(namethis.Split("1_")[1]) - 1;
         finishPos = (Vector3)statue.GetComponent<TileFinish>().finsihedTilePos[tileName];
     }
 
@@ -56,11 +56,6 @@ public class MoveTileGod : MonoBehaviour
             if (moveable)
             {
                 moveable = false;
-                if (gameObject.transform.position.x == col.transform.position.x + col.transform.localScale.x / 2 &&
-                    gameObject.transform.position.y == col.transform.position.y + col.transform.localScale.y / 2)
-                {
-                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3f, -0.02f);
-                }
             }
             else
             {

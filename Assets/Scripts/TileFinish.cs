@@ -63,7 +63,7 @@ public class TileFinish : MonoBehaviour
         {
             return;
         }
-
+        count = 0;
         for (int i = 0; i < finishedTiles.Length; i++)
         {
             if (finishedTiles[i])
@@ -83,7 +83,8 @@ public class TileFinish : MonoBehaviour
         yield return new WaitForSeconds(2f);
         GameObject.Find("Exit: Use").GetComponent<Interaction>().RunFromIndex(0);
         GameObject.Find("StatueFinished").GetComponent<Interaction>().RunFromIndex(0);
-        timeHandler = GameObject.Find("TimeHandler").GetComponent<TimeHandler>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        timeHandler = player.GetComponentInChildren<TimeHandler>();
         timeHandler.timerActive = true;
     }
 }

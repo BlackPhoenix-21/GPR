@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using AC;
+using TMPro;
 using UnityEngine;
 
 public class TimeHandler : MonoBehaviour
 {
-    public float timer = 300f; // 5 minutes in seconds
+    private float timer = 300f;
     public bool timerActive = false;
     public bool timerFinished = false;
     public bool timerStarted = false;
@@ -48,7 +49,7 @@ public class TimeHandler : MonoBehaviour
         {
             timerString += timer.ToString();
         }
-        canvas.GetComponent<UnityEngine.UI.Text>().text = timerString;
+        canvas.GetComponentInChildren<TMP_Text>().text = timerString;
 
         if (timer <= 0)
         {
