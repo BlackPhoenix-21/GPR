@@ -432,7 +432,7 @@ MonoBehaviour:
   m_text: Game Over
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
-  m_sharedMaterial: {fileID: -3104326968060610033, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
+  m_sharedMaterial: {fileID: 4405944665680708941, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_text: Back to the menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
-  m_sharedMaterial: {fileID: -3104326968060610033, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
+  m_sharedMaterial: {fileID: 4405944665680708941, guid: 09c4410a75db1674faa5546a354073b3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1215,7 +1215,7 @@ MonoBehaviour:
   chooseSceneBy: 1
   sceneNumber: 0
   sceneNumberParameterID: -1
-  sceneName: 
+  sceneName: MainMenu
   sceneNameParameterID: -1
   assignScreenOverlay: 0
   onlyPreload: 0
