@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
@@ -32,7 +33,7 @@ public class TimeHandler : MonoBehaviour
         if (!timerStarted)
         {
             timerStarted = true;
-            StartCoroutine(Timer());
+            StartCoroutine(CountdownTimer());
         }
 
         timerString = "Timer: ";
@@ -62,12 +63,12 @@ public class TimeHandler : MonoBehaviour
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
         }
     }
-    IEnumerator Timer()
+    IEnumerator CountdownTimer()
     {
         while (timer > 0)
         {
             yield return new WaitForSeconds(1f);
-            timer--;
+            timer -= 1f;
         }
     }
 }

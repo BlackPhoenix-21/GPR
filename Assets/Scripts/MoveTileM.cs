@@ -16,6 +16,7 @@ public class MoveTileM : MonoBehaviour
     private int nameint;
     Vector2 startPos;
     bool finsihed = false;
+    public int zahl = 0;
     void Start()
     {
         acObject = GameObject.Find("SpiegelManager");
@@ -30,7 +31,6 @@ public class MoveTileM : MonoBehaviour
         if (run == 2)
         {
             finsihed = spiegel.GetComponent<TileFinishM>().isFinished;
-            Debug.Log("finsihed: " + finsihed);
         }
         if (myParameter.intValue == 0 && run == 0)
         {
@@ -42,7 +42,7 @@ public class MoveTileM : MonoBehaviour
             }
             run++;
         }
-        if (myParameter.intValue == 1 && run != 2)
+        if (myParameter.intValue == zahl && run != 2)
         {
             spiegelnum = myParameter.intValue;
             spiegelname = "Spiegel" + spiegelnum;

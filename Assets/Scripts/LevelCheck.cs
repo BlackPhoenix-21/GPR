@@ -27,9 +27,11 @@ public class LevelCheck : MonoBehaviour
             if (item.GetComponent<TileFinishM>().isFinished == true)
             {
                 count++;
+                Debug.Log("Spiegel " + item.name + " is finished.");
+                Debug.Log("Count: " + count);
             }
         }
-        if (count == 7)
+        if (count == 4)
         {
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameWin");
         }
