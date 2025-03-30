@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class UIHandler : MonoBehaviour
 {
-    private int targetLayer = 5;
     private GameObject[] UI;
     public GameObject statue;
     bool online = false;

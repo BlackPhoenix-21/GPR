@@ -9,8 +9,6 @@ public class TileFinishM : MonoBehaviour
     public Vector2 finsihedTilePos;
     [HideInInspector]
     public bool isFinished = false;
-    private GameObject acObject;
-    private ActionParameter myParameter;
     private bool added = false;
     void Start()
     {
@@ -19,24 +17,13 @@ public class TileFinishM : MonoBehaviour
 
     void Update()
     {
-        acObject = GameObject.Find("SpiegelManager");
-        ActionList myActionList = acObject.GetComponent<ActionList>();
-        myParameter = myActionList.GetParameter("Spiegelnum");
-        if (myParameter.intValue != 0)
-        {
-            //Debug.Log("SpiegelNum: " + myParameter.intValue);
-        }
-        else
-        {
-            //Debug.Log("SpiegelNum: 0");
-        }
-
         if (isFinished && !added)
         {
             StartCoroutine(FinishedM());
             added = true;
         }
     }
+
     IEnumerator FinishedM()
     {
         yield return new WaitForSeconds(0.75f);
