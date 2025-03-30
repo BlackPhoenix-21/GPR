@@ -9,8 +9,10 @@ public class MoveTileGod : MonoBehaviour
     private Vector3 finishPos;
     private float floater = 0.25f;
     private bool moveable = false;
+    public GameObject col;
     void Start()
     {
+        col = GameObject.Find("Exit");
         statue = GameObject.Find("Statue");
         string name = gameObject.GetComponent<SpriteRenderer>().sprite.name;
         tileName = int.Parse(name.Split("1_")[1]) - 1;
@@ -50,8 +52,20 @@ public class MoveTileGod : MonoBehaviour
             {
                 return;
             }
-            moveable = false;
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3f, -0.02f);
+
+            if (moveable)
+            {
+                moveable = false;
+                if (gameObject.transform.position.x == col.transform.position.x + col.transform.localScale.x / 2 &&
+                    gameObject.transform.position.y == col.transform.position.y + col.transform.localScale.y / 2)
+                {
+                    gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3f, -0.02f);
+                }
+            }
+            else
+            {
+                moveable = true;
+            }
         }
     }
 
