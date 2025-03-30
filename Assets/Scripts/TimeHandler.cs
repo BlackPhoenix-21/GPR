@@ -37,25 +37,14 @@ public class TimeHandler : MonoBehaviour
         }
 
         timerString = "Timer: ";
-        if (timer >= 60)
-        {
-            timerString += (timer / 60).ToString() + ":";
-            if (timer % 60 < 10)
-            {
-                timerString += "0";
-            }
-            timerString += (timer % 60).ToString();
-        }
-        else
-        {
-            timerString += timer.ToString();
-        }
+        int minutes = Mathf.FloorToInt(timer / 60);
+        int seconds = Mathf.FloorToInt(timer % 60);
+        timerString += string.Format("{0:00}:{1:00}", minutes, seconds);
         canvas.GetComponentInChildren<TMP_Text>().text = timerString;
 
         if (timer <= 0)
         {
             timerFinished = true;
-            Debug.Log("Timer finished.");
         }
 
         if (timerFinished)
