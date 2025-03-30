@@ -3971,7 +3971,7 @@ MonoBehaviour:
   canvas: {fileID: 22300000, guid: 28ad2bbec343aa547ab7e499cead878d, type: 3}
   canvasAssetKey: 
   canvasID: 0
-  rectTransform: {fileID: 0}
+  rectTransform: {fileID: 22400004, guid: 28ad2bbec343aa547ab7e499cead878d, type: 3}
   rectTransformID: 14532472
   uiTransitionType: 1
   uiPositionType: 0
@@ -4400,10 +4400,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.3825
     y: 493.2576
-    width: 0
+    width: 691.2
     height: 172.8
   relativePosition: {x: 11.2, y: 66}
-  numSlots: 0
+  numSlots: 4
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 705200

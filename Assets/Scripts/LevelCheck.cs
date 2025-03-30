@@ -16,7 +16,11 @@ public class LevelCheck : MonoBehaviour
 
     void Update()
     {
-        GameObject[] spiegel = GameObject.FindGameObjectsWithTag("Spiegel");
+        GameObject[] spiegel = new GameObject[4];
+        for (int i = 1; i < 5; i++)
+        {
+            spiegel[i - 1] = GameObject.Find("Spiegel" + i);
+        }
         int count = 0;
         foreach (var item in spiegel)
         {

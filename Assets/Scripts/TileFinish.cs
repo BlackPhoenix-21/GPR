@@ -21,6 +21,7 @@ public class TileFinish : MonoBehaviour
     public Sprite sprite;
     public GameObject background;
     private TimeHandler timeHandler;
+    private int count = 0;
     void Awake()
     {
         shrine.SetActive(false);
@@ -58,7 +59,11 @@ public class TileFinish : MonoBehaviour
 
     void Update()
     {
-        int count = 0;
+        if (count == 7)
+        {
+            return;
+        }
+
         for (int i = 0; i < finishedTiles.Length; i++)
         {
             if (finishedTiles[i])

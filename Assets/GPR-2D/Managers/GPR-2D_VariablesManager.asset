@@ -96,7 +96,7 @@ MonoBehaviour:
   - label: Level-2
     id: 4
     type: 0
-    val: 1
+    val: 0
     floatVal: 0
     textVal: 
     gameObjectVal: {fileID: 0}

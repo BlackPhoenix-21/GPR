@@ -9,19 +9,19 @@ public class UIHandler : MonoBehaviour
     private GameObject[] UI;
     public GameObject statue;
     bool online = false;
-    void Start()
-    {
-        StartCoroutine(Wait());
-    }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(0.1f);
-        GameObject[] allObjects = FindObjectsOfType<GameObject>();
-        UI = allObjects.Where(obj => obj.layer == targetLayer).ToArray();
-    }
-
+    public bool HideAllways = false;
     void Update()
     {
+        UI = GameObject.FindGameObjectsWithTag("UIHide");
+        if (HideAllways)
+        {
+            foreach (GameObject ui in UI)
+            {
+                ui.SetActive(false);
+            }
+            return;
+        }
+
         if (UI == null)
         {
             return;
@@ -35,6 +35,7 @@ public class UIHandler : MonoBehaviour
         {
             online = false;
         }
+
         if (online)
         {
             foreach (GameObject ui in UI)

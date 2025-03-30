@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BackgroundCamera
   - Tile
+  - UIHide
   layers:
   - Default
   - TransparentFX
