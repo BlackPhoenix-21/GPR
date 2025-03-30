@@ -3008,6 +3008,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3966548106767215600, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966548106767215600, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: lookButton.interaction
       value: 
       objectReference: {fileID: 0}
@@ -3025,11 +3029,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.83
+      value: 5.01
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.09
+      value: -2.21
       objectReference: {fileID: 0}
     - target: {fileID: 6382584132286429774, guid: 489ea291bad4f894b884cba0b41cec71, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3078,11 +3082,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.34
+      value: -0.23
       objectReference: {fileID: 0}
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.18
+      value: -3.23
       objectReference: {fileID: 0}
     - target: {fileID: 3517914085481404439, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3121,6 +3125,10 @@ PrefabInstance:
       value: "G\xF6ttin-Statue_zerlegt1_5"
       objectReference: {fileID: 0}
     - target: {fileID: 7721476148869550838, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 7721476148869550838, guid: 8791fdddc3e93c64397092936be28f5f, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 2310036435755392889}
@@ -3139,11 +3147,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.46
+      value: 3.39
       objectReference: {fileID: 0}
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.68
+      value: -2.76
       objectReference: {fileID: 0}
     - target: {fileID: 2719749823079447170, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3180,6 +3188,10 @@ PrefabInstance:
     - target: {fileID: 6093941944323037373, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: m_Name
       value: "G\xF6ttin-Statue_zerlegt1_1"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6923237720316141391, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
       objectReference: {fileID: 0}
     - target: {fileID: 6923237720316141391, guid: cf30be997a2f8f842b09420e2020593a, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
@@ -3263,6 +3275,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 934871295151284794, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 934871295151284794, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 8473421222778949183}
@@ -3272,11 +3288,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.96
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.24
+      value: -2.02
       objectReference: {fileID: 0}
     - target: {fileID: 8367796279341222795, guid: 029644b6059b9bc4eb1bd1925d820678, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3534,6 +3550,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3247456253033991627, guid: 7537a6e875d73f84ca20d4a02257bfa9, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247456253033991627, guid: 7537a6e875d73f84ca20d4a02257bfa9, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 6875403563738787832}
@@ -3639,6 +3659,10 @@ PrefabInstance:
       value: "G\xF6ttin-Statue_zerlegt1_2"
       objectReference: {fileID: 0}
     - target: {fileID: 7773555710119391917, guid: 9976b13ec6282484389e122dc99fa038, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 7773555710119391917, guid: 9976b13ec6282484389e122dc99fa038, type: 3}
       propertyPath: useButtons.Array.data[0].interaction
       value: 
       objectReference: {fileID: 703346517670001247}
@@ -3698,6 +3722,10 @@ PrefabInstance:
     - target: {fileID: 6279466924701186615, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7378982878034544236, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
+      propertyPath: hotspotName
+      value: Statue Piece
       objectReference: {fileID: 0}
     - target: {fileID: 7378982878034544236, guid: 020d8a9396a9f824e89a4112c906444f, type: 3}
       propertyPath: useButtons.Array.data[0].interaction

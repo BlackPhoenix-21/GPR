@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GPR-2D_InventoryManager
   m_EditorClassIdentifier: 
   items:
-  - label: Axt
+  - label: Axe
     id: 0
     altLabel: 
     carryOnStart: 0
@@ -70,7 +70,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 1
     id: 1
-    altLabel: Statuenteil
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -125,7 +125,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 2
     id: 2
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -180,7 +180,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 3
     id: 3
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -235,7 +235,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 4
     id: 4
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -290,7 +290,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 5
     id: 5
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -345,7 +345,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 6
     id: 6
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -400,7 +400,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: Teil 7
     id: 7
-    altLabel: 
+    altLabel: Statue Piece
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
