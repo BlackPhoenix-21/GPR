@@ -50,14 +50,8 @@ public class MoveTileGod : MonoBehaviour
             {
                 return;
             }
-            if (moveable)
-            {
-                moveable = false;
-            }
-            else
-            {
-                moveable = true;
-            }
+            moveable = false;
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 3f, -0.02f);
         }
     }
 
