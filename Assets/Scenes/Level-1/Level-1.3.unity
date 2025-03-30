@@ -2686,7 +2686,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Those are the same prints as before! I'm sure i have to follow this
+  messageText: Those are the same prints as before! I'm sure I have to follow this
     path.
   lineID: -1
   multiLineIDs: 
@@ -2927,7 +2927,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Another rock... I'm getting tired, but I'm sure i can push it one
+  messageText: Another rock... I'm getting tired, but I'm sure I can push it one
     last time...
   lineID: -1
   multiLineIDs: 

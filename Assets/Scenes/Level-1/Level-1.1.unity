@@ -1353,7 +1353,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Paw prints? Maybe i should follow them...
+  messageText: Paw prints? Maybe I should follow them...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3726,7 +3726,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Now i can also go this way...
+  messageText: Now I can also go this way...
   lineID: -1
   multiLineIDs: 
   isBackground: 0
